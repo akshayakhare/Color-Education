@@ -8,8 +8,8 @@ function addAccessor(obj, name, value) {
     };
 }
 
-abc_2();
-function abc_2(){
+abc();
+function abc(){
 // This product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/).
 "use strict";
 
@@ -21,8 +21,6 @@ var colorbrewer = { YlGn: {
     7: ["#ffffcc", "#d9f0a3", "#addd8e", "#78c679", "#41ab5d", "#238443", "#005a32"],
     8: ["#ffffe5", "#f7fcb9", "#d9f0a3", "#addd8e", "#78c679", "#41ab5d", "#238443", "#005a32"],
     9: ["#ffffe5", "#f7fcb9", "#d9f0a3", "#addd8e", "#78c679", "#41ab5d", "#238443", "#006837", "#004529"]
-  }, Rnbow: {
-    7: [ "#FF0000", "#4B0082", "#00020FF", "#00FF00", "#FFFF00", "#FF7F00","#9400D3", ]
   }, YlGnBu: {
     3: ["#edf8b1", "#7fcdbb", "#2c7fb8"],
     4: ["#ffffcc", "#a1dab4", "#41b6c4", "#225ea8"],
@@ -449,15 +447,13 @@ var Choropleth = (function (_Geomap) {
         _get(Object.getPrototypeOf(Choropleth.prototype), 'constructor', this).call(this);
 
         var properties = {
-//            colors: colorbrewer.OrRd[9],
-            colors: colorbrewer.Rnbow[7],
+            colors: colorbrewer.OrRd[9],
             column: null,
             domain: null,
             duration: null,
             format: d3.format(',.02f'),
             legend: false,
             valueScale: d3.scale.quantize
-
         };
 
         for (var key in properties) {
@@ -627,8 +623,8 @@ d3.geomap.choropleth = function () {
 };
 }
 
-function mapper2(){
-     console.log ('inside map 2');
+function mapper(){
+console.log ('inside map ');
     var format = function(d) {
         d = d / 1000000;
         return d3.format(',.02f')(d) + 'M';
@@ -643,8 +639,9 @@ function mapper2(){
         .zoomFactor(3);
 
     d3.csv('./Data/US_Population.csv', function(error, data) {
-        d3.select('#map2')
+        d3.select('#map')
             .datum(data)
             .call(map.draw, map);
     });
+    //abc();
 }
