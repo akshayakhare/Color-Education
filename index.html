@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="./css/d3.geomap.css" rel="stylesheet">
+        <script src="./vendor/d3.geomap.dependencies.min.js"></script>
+        <script src="./js/d3.geomap.min.js"></script>
+    </head>
+    <body>
+        <h1 align="center">Color Education!!!!</h1>
+        <h3 align="center">Welcome to the wonderful world of Visualization<br /></h3>
+        <h4 align="center">Well to be honest, just a page of Visualization.<br /></h4>
+        OK, to be brutally honest, you are just going to know about different color mapping strategies...<br />
+        Happy? No? What more did you expect from this one page website?<br />
+        Anyways, so there are three Main types of Color Maps, and below you will get to see the examples of each.
+        <br />
+        <div align="left">
+            <ul align="left">
+                <li>Categorical</li>
+                <li>Sequential</li>
+                <li>Diverging</li>
+            </ul>
+        </div>
+        <br />
+        <h3>Categorical:</h3>
+        <p>Let's start with Categorical, when we have categorical data, we also try to use a categorical representation to visualize it.
+        Now I assume you know what a categorical data is, no? Apple, Oranges and Pineapple. You can't quantify these fruits,
+            you can only divide them into different categories. Hope now you have a better understanding.
+        <br />Now to visualize this, let's quickly take an example. Just take a look at the below exampe:</p>
+        <div><img src="./Images/Categorical_Bad.jpg" align = "center"> </div>
+        Source of Data -> <a href="http://www.eia.gov/renewable/data.cfm">http://www.eia.gov/renewable/data.cfm</a>
+        <br /><br />
+        How does this look? In the above graph we have five different Renewable energy consumption details since 2010.
+        <br />I am pretty sure you already figured that out, but do you have to frequently oscillate between the graph and the legend?
+        <br />Also, which is highly consumed, Hydroelectric or Geothermal? After carefully looking and understanding the depth of the color,
+        you will be able to answer that question. This is why, its a <b>BAD</b> representation of the given categorical data.
+        <br />
+        <br />
+        <br />Let's trying remodling this graph.
+        <div><img src="./Images/Categorical_Good.jpg" align = "center"> </div>
+        Source of Data -> <a href="http://www.eia.gov/renewable/data.cfm">http://www.eia.gov/renewable/data.cfm</a>
+        <br /><br />Wow!!! This looks so much better. All the categories have been differentiated by different types of color.
+        <br />You can easily make out each separate type of Renewable Energy. This makes it <b>GOOD</b>
+        <br />
+        <br />So with this you can understand how categorical data can be represented by categorical colors.
+        <br />And more importantly, why its important!
+        <br />
+        <br />
+        <h3>Sequential:</h3>
+        Tell me you know what sequential is. I'm not going to explain data like 4 apples, 40 apples or 400 apples.
+        <br />Oh No! I already did. No wonder I can't hold any secrets.
+        <br />Anyways, when you have sequential data, you want to show it in a sequential manner.
+        <br />Let's take a bad example below:
+        <div><img src="./Images/Sequential_Bad.jpg" align = "center"> </div>
+        Source of Data -> <a href="http://www.enchantedlearning.com/usa/states/population.shtml">http://www.enchantedlearning.com/usa/states/population.shtml</a>
+        <br /><br />
+        It's the United States map!!! Did you know Alaska and Hawaii are not in the correct position as shown in this picture?
+        <br />I bet you knew that, if you didn't, go check out an actual map and find out where it is exactly.
+        <br />But coming back to topic, this graph shows the population across different states in US.
+        <br />
+        <br />It's <b>BAD</b>. Do you know why?
+        <br />You already knew the different states of the US(at least I hope so), so you don't need that detail in your legend.
+        <br />Although going through the states and the legend will give you the population of each state, but won't show the trend.
+        <br />Now tell me which is the most populated state from this graph?
+        <br />Can't say? Data not available in the legends? It's not interactive? HA HA, fooled you...
+        <br />Well, this is an image extracted from the graph I made in Tableau, and apparently the image extraction from Tableau doesn't
+        give all the details of the legend.
+        <br />I apologize for that, but let me make it up to you by showing this:
+        <br />
+        <div><img src="./Images/Sequential_Good.jpg" align = "center"></div>
+        Source of Data -> <a href="http://www.enchantedlearning.com/usa/states/population.shtml">http://www.enchantedlearning.com/usa/states/population.shtml</a>
+        <br />
+        <br />TADA!!!
+        <br />Now you can take a single look at the legend and the graph and tell that the most populated State in US is California.
+        <br />Well some people might say that Texas is also a good contender, I would say look carefully then. If you still don't believe it, google it.
+        <br />
+        <br />So what do we understand from this, sequential data can be very well represented by Sequential color mapping.
+        <br />By stepping up the shade of blue, you know the value is also higher. This makes the visualization easier to understand.
+        <br />Thus we categorize it as <b>GOOD</b>
+        <br />
+        <br />
+        <h3>Diverging:</h3>
+        "Now what is this now? I understood categorical and Sequential. What possibly could be Diverging??? Dividing an apple into two???"
+        <br />Is that what you are thinking now? Well actually its true, we do split. We split the data, not the apple(Well eating an apple after splitting is easier, just fyi).
+        <br />When we need to show the data which has a mid point(or points), and we want to show two extremes of the different direction, we use Divergent Color Mapping.
+        <br />It's actually a combination of Sequential and Categorical, We use two different colors to categorize the opposite side of mid points, and then stepping colors for the extreme sides.
+        <br />Too complicated? Let me explain you with a global example:
+        <br />
+        <div><img src="./Images/Diverging_Bad.jpg" align = "center"></div>
+        Source of Data -> <a href="http://statisticstimes.com/economy/european-countries-by-gdp.php">http://statisticstimes.com/economy/european-countries-by-gdp.php</a>
+        <br />
+        <br />So let's learn about Europe. This graph shows the GDP across different countries in Europe.
+        <br />pssst... Fun Fact: UK is no longer a part of European Union,  so the data might be old. Well it's not fun for UK guys, but we can always make fun of them.
+        <br />
+        <br />Why is this <b>BAD</b>? There's a mid point of 1500, which shows the divide between high and low GDP countries.
+        <br />But you will not be able to identify the trend with the given legend. Hence the graph doesn't make much sense.
+        <br />Although you can understand Spain lies in the mid point range, but you are not clearly sure.
+        <br />
+        <br />Tell me, how much would be the difference of GDP between France and Finland. Not much? Let's see another example
+        <br />
+        <div><img src="./Images/Diverging_Good.jpg" align = "center"></div>
+        Source of Data -> <a href="http://statisticstimes.com/economy/european-countries-by-gdp.php">http://statisticstimes.com/economy/european-countries-by-gdp.php</a>
+        <br />
+        <br />Wow, so much information is now easily entering into my brain. Either you were underestimating France's economy,
+        or you are a big fan of <a href="https://en.wikipedia.org/wiki/Linus_Torvalds">Linus Torvalds</a> and hoping he made enough money to help
+        Finland's exonomy as well.
+        <br />
+        <br />So now you can easily tell which countries have high GDP, and which countries have low.
+        <br />Spain comes in the mid range, and the color difference between Blue and Red clearly makes a distinction, which we can easily understand.
+        <br />That's why this becomes a <b>GOOD</b> visualization of Diverging data.
+        <br />
+        <br />
+        <h2>Conclusion:</h2>
+        <br />So now you know different types of color mapping techniques with different types of data.
+        <br />Sequential Color Mapping -> When you want to show an increasing or decreasing trend.
+        <br />Categorical Color Mapping -> When you want to show distinct categories in a graph.
+        <br />Diverging Color Mapping -> When you have to show data which has two extremes divided by a points(or points).
+        <br />It all depends on what do you want to show to your audience, hopefully you will make use of this information and remember me when you do it(or don't it all depends on the goodness of your heart).
+
+        <br />
+        <br />
+        <br />
+        <br />Just to show off, below is another Sequential map of the population of United States across each state, which has been drawn from D3.js
+        <br />And yes it is interactive, just zoom and hover though, couldn't do a lot. Maybe later...
+
+        <!--Dude, 4th dimension broke, finish D3 first and then think about your useless commentary-->
+        <div id="map" align="center"></div>
+        <!-- I guess my conscience is happy now, D3 is working!!!-->
+    </body>
+    <script src="./js/D3_Mapper.js"></script>
+</html>

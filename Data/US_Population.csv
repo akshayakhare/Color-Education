@@ -1,0 +1,74 @@
+State,Population,ID,,,Alabama,US01,01,State; counties
+California,38332521,US06,US06,,Alaska,US02,02,State; boroughs
+Texas,26448193,US48,US48,,American Samoa,US60,60,Outlying area under U.S. sovereignty
+New York,19651127,US36,US36,,American Samoa *,US03,03,(FIPS 5-1 reserved code)
+Florida,19552860,US12,US12,,Arizona,US04,04,State; counties
+Illinois,12882135,US17,US17,,Arkansas,US05,05,State; counties
+Pennsylvania,12773801,US42,US42,,Baker Island,US81,81,Minor outlying island territory
+Ohio,11570808,US39,US39,,California,US06,06,State; counties
+Georgia,9992167,US13,US13,,Canal Zone *,US07,07,(FIPS 5-1 reserved code)
+Michigan,9895622,US26,US26,,Colorado,US08,08,State; counties
+North Carolina,9848060,US37,US37,,Connecticut,US09,09,State; counties
+New Jersey,8899339,US34,US34,,Delaware,US10,10,State; counties
+Virginia,8260405,US51,US51,,District of Columbia,US11,11,Federal district[4]
+Washington,6971406,US53,US53,,Florida,US12,12,State; counties
+Massachusetts,6692824,US25,US25,,Federated States of Micronesia,US64,64,Freely Associated State
+Arizona,6626624,US04,US04,,Georgia,US13,13,State; counties
+Indiana,6570902,US18,US18,,Guam *,US14,14,(FIPS 5-1 reserved code)
+Tennessee,6495978,US47,US47,,Guam,US66,66,Outlying area under U.S. sovereignty
+Missouri,6044171,US29,US29,,Hawaii,US15,15,State; counties
+Maryland,5928814,US24,US24,,Howland Island,US84,84,Minor outlying island territory
+Wisconsin,5742713,US55,US55,,Idaho,US16,16,State; counties
+Minnesota,5420380,US27,US27,,Illinois,US17,17,State; counties
+Colorado,5268367,US08,US08,,Indiana,US18,18,State; counties
+Alabama,4833722,US01,US01,,Iowa,US19,19,State; counties
+South Carolina,4774839,US45,US45,,Jarvis Island,US86,86,Minor outlying island territory
+Louisiana,4625470,US22,US22,,Johnston Atoll,US67,67,Minor outlying island territory
+Kentucky,4395295,US21,US21,,Kansas,US20,20,State; counties
+Oregon,3930065,US41,US41,,Kentucky,US21,21,State; counties
+Oklahoma,3850568,US40,US40,,Kingman Reef,US89,89,Minor outlying island territory
+Connecticut,3596080,US09,US09,,Louisiana,US22,22,State; parishes
+Iowa,3090416,US19,US19,,Maine,US23,23,State; counties
+Mississippi,2991207,US28,US28,,Marshall Islands,US68,68,Freely Associated State
+Arkansas,2959373,US05,US05,,Maryland,US24,24,State; counties
+Utah,2900872,US49,US49,,Massachusetts,US25,25,State; counties
+Kansas,2893957,US20,US20,,Michigan,US26,26,State; counties
+Nevada,2790136,US32,US32,,Midway Islands,US71,71,Minor outlying island territory
+New Mexico,2085287,US35,US35,,Minnesota,US27,27,State; counties
+Nebraska,1868516,US31,US31,,Mississippi,US28,28,State; counties
+West Virginia,1854304,US54,US54,,Missouri,US29,29,State; counties
+Idaho,1612136,US16,US16,,Montana,US30,30,State; counties
+Hawaii,1404054,US15,US15,,Navassa Island,US76,76,Minor outlying island territory
+Maine,1328302,US23,US23,,Nebraska,US31,31,State; counties
+New Hampshire,1323459,US33,US33,,Nevada,US32,32,State; counties
+Rhode Island,1051511,US44,US44,,New Hampshire,US33,33,State; counties
+Montana,1015165,US30,US30,,New Jersey,US34,34,State; counties
+Delaware,925749,US10,US10,,New Mexico,US35,35,State; counties
+South Dakota,844877,US46,US46,,New York,US36,36,State; counties
+Alaska,735132,US02,US02,,North Carolina,US37,37,State; counties
+North Dakota,723393,US38,US38,,North Dakota,US38,38,State; counties
+District of Columbia,646449,US11,US11,,Northern Mariana Islands,US69,69,Outlying area under U.S. sovereignty
+Vermont,626630,US50,US50,,Ohio,US39,39,State; counties
+Wyoming,582658,US56,US56,,Oklahoma,US40,40,State; counties
+,,,,,Oregon,US41,41,State; counties
+,,,,,Palau,US70,70,Freely Associated State
+,,,,,Palmyra Atoll,US95,95,Minor outlying island territory
+,,,,,Pennsylvania,US42,42,State; counties
+,,,,,Puerto Rico *,US43,43,(FIPS 5-1 reserved code)
+,,,,,Puerto Rico,US72,72,Outlying area under U.S. sovereignty
+,,,,,Rhode Island,US44,44,State; counties
+,,,,,South Carolina,US45,45,State; counties
+,,,,,South Dakota,US46,46,State; counties
+,,,,,Tennessee,US47,47,State; counties
+,,,,,Texas,US48,48,State; counties
+,,,,,U.S. Minor Outlying Islands,US74,74,Minor outlying island territories (aggregated)
+,,,,,Utah,US49,49,State; counties
+,,,,,Vermont,US50,50,State; counties
+,,,,,Virginia,US51,51,State; counties
+,,,,,Virgin Islands of the U.S. *,US52,52,(FIPS 5-1 reserved code)
+,,,,,Virgin Islands of the U.S.,US78,78,Outlying area under U.S. sovereignty
+,,,,,Wake Island,US79,79,Minor outlying island territory
+,,,,,Washington,US53,53,State; counties
+,,,,,West Virginia,US54,54,State; counties
+,,,,,Wisconsin,US55,55,State; counties
+,,,,,Wyoming,US56,56,State; counties
